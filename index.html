@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <header class="head">
+      <h1>Calculator</h1>
+    </header>
+    <main class="wrapMain">
+      <div>
+        <!-- RESULT  -->
+        <p class="result"></p>
+        <!-- NUMBERS  -->
+        <button class="butt buttNumb" onClick="enterNumber(1)">1</button>
+        <button class="butt buttNumb" onClick="enterNumber(2)">2</button>
+        <button class="butt buttNumb" onClick="enterNumber(3)">3</button>
+        <button class="butt buttNumb" onClick="enterNumber(4)">4</button>
+        <button class="butt buttNumb" onClick="enterNumber(5)">5</button>
+        <button class="butt buttNumb" onClick="enterNumber(6)">6</button>
+        <button class="butt buttNumb" onClick="enterNumber(7)">7</button>
+        <button class="butt buttNumb" onClick="enterNumber(8)">8</button>
+        <button class="butt buttNumb" onClick="enterNumber(9)">9</button>
+        <!-- OPERAND  -->
+        <button class="butt buttOper" onClick="einerZeichen('-')">-</button>
+        <!-- ZERO  -->
+        <button class="butt buttNumb" onClick="einerNumber(0)">0</button>
+        <!-- OPERAND  -->
+        <button class="butt buttOper" onClick="einerZeichen('+')">+</button>
+        <button class="butt buttOper" onClick="einerZeichen('/')">/</button>
+        <button class="butt buttOper buttDel" onClick="reset()">c</button>
+        <button class="butt buttOper" onClick="einerZeichen('*')">*</button>
+        <!-- GLEICH  -->
+        <button class="butt buttGleich" onClick="calculate()">=</button>
+      </div>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>

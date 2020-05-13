@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.head {
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapMain {
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CALCULATOR DIV */
+div {
+  border: solid 2px #606060;
+  width: 220px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* RESULT  */
+.result {
+  border: solid 2px #606060;
+  background-color: yellow;
+  width: 168px;
+  min-height: 30px;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* BUTTONS */
+.butt {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  color: yellow;
+  outline-color: yellow;
+  background-color: #606060;
+  border: 2px solid #606060;
+}
+
+/* NUMBERS */
+.buttNumb {
+  font-size: 18px;
+}
+
+/* OPERAND  */
+.buttOper {
+  font-size: 22px;
+  color: orange;
+  outline-color: orange;
+}
+
+/* GLEICH  */
+.buttGleich {
+  font-size: 22px;
+  width: 190px;
+  color: orange;
+  outline-color: orange;
+}
+
+.buttDel {
+  color: red;
+  outline-color: red;
+}
