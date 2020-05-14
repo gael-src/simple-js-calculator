@@ -1,4 +1,6 @@
-# simple-js-calculator
+# Simple JS Calculator
+
+
 
 https://gael-src.github.io/simple-js-calculator/
 
