@@ -6,6 +6,7 @@ body {
 
 header {
   margin-top: 50px;
+  min-height: 20vh;
 }
 
 .head {
@@ -14,10 +15,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-p {
-  margin: 5px;
 }
 
 /* GAEL-SRC.GITHUB.IO */
@@ -37,7 +34,8 @@ p {
 }
 
 .wrapMain {
-  min-height: 100vh;
+  min-height: 80vh;
+  padding: 50px 0;
   display: flex;
   justify-content: center;
   align-items: center;
