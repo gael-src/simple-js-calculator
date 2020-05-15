@@ -4,15 +4,40 @@ body {
   box-sizing: border-box;
 }
 
+header {
+  margin-top: 50px;
+}
+
 .head {
   height: 20vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+p {
+  margin: 5px;
+}
+
+/* GAEL-SRC.GITHUB.IO */
+.gael-src-link {
+  color: #0081ff;
+  border: solid 1px #0081ff;
+  text-decoration: none;
+  font-size: 16px;
+  justify-items: flex-start;
+  /* align-self: flex-start; */
+  margin: 10px 10px 10px 30px;
+  padding: 5px 10px;
+}
+.gael-src-link:hover {
+  color: #0081ff;
+  text-decoration: underline;
+}
+
 .wrapMain {
-  height: 60vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
