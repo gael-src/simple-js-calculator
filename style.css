@@ -17,22 +17,6 @@ header {
   align-items: center;
 }
 
-/* GAEL-SRC.GITHUB.IO */
-.gael-src-link {
-  color: #0081ff;
-  border: solid 1px #0081ff;
-  text-decoration: none;
-  font-size: 16px;
-  justify-items: flex-start;
-  /* align-self: flex-start; */
-  margin: 10px 10px 10px 30px;
-  padding: 5px 10px;
-}
-.gael-src-link:hover {
-  color: #0081ff;
-  text-decoration: underline;
-}
-
 .wrapMain {
   min-height: 80vh;
   padding: 50px 0;
@@ -42,7 +26,7 @@ header {
 }
 
 /* CALCULATOR DIV */
-div {
+.calculator-wrapper {
   border: solid 2px #606060;
   width: 220px;
   padding: 10px;
@@ -96,4 +80,26 @@ div {
 .buttDel {
   color: red;
   outline-color: red;
+}
+
+/* GAEL-SRC.GITHUB.IO */
+.gael-src-link {
+  color: black;
+  border: solid 1px black;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  padding: 5px 10px;
+}
+.gael-src-link:hover {
+  color: white;
+  background-color: black;
+}
+.gael-src-link-wrapper {
+  min-height: 500px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
